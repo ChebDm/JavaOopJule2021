@@ -51,5 +51,6 @@ public class RangeApp {
         }
 
         System.out.println("Объединение диапазонов: " + Arrays.toString(range1.getUnion(range2)));
+        System.out.println("Разность диапазонов: " + Arrays.toString(range1.getDifference(range2)));
     }
 }

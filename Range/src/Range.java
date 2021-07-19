@@ -77,4 +77,23 @@ public class Range {
 
         return new Range[]{new Range(Math.min(examinedRange.from, from), Math.max(examinedRange.to, to))};
     }
+
+    public Range[] getDifference(Range examinedRange) {
+        if (!isIntersected(examinedRange)) {
+            return new Range[]{new Range(from, to)};
+        }
+
+        if (examinedRange.to < to) {
+            if (examinedRange.from > from) {
+                return new Range[]{new Range(from, examinedRange.from), new Range(examinedRange.to, to)};
+            } else {
+                return new Range[]{new Range(examinedRange.to, to)};
+            }
+        } else {
+            if (!(examinedRange.from > from)) {
+                return new Range[0];
+            }
+            return new Range[]{new Range(from, examinedRange.from)};
+        }
+    }
 }

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e82c6b85-d4b9-4a3e-bf93-b309f8748261" name="Default Changelist" comment="add out folder to gitignore" />
+    <list default="true" id="e82c6b85-d4b9-4a3e-bf93-b309f8748261" name="Default Changelist" comment="add getDifference method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Range/src/Range.java" beforeDir="false" afterPath="$PROJECT_DIR$/Range/src/Range.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Range/src/RangeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Range/src/RangeApp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,17 +26,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Range/src" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15902779" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -75,6 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626676464720</updated>
       <workItem from="1626676466192" duration="4731000" />
+      <workItem from="1626681214800" duration="3940000" />
     </task>
     <task id="LOCAL-00001" summary="add vcs.xml">
       <created>1626678247990</created>
@@ -118,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1626681032251</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="init commit">
+      <created>1626681418538</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1626681418538</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add vsc.xml">
+      <created>1626681446321</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626681446322</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +158,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add vcs.xml" />
@@ -141,6 +166,9 @@
     <MESSAGE value="add iml" />
     <MESSAGE value="remove some code&#10;add getUnion method for Range" />
     <MESSAGE value="add out folder to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add out folder to gitignore" />
+    <MESSAGE value="init commit" />
+    <MESSAGE value="add vsc.xml" />
+    <MESSAGE value="add getDifference method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add getDifference method" />
   </component>
 </project>
