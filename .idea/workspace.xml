@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e82c6b85-d4b9-4a3e-bf93-b309f8748261" name="Default Changelist" comment="check">
-      <change afterPath="$PROJECT_DIR$/Shape/Shape.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shape/src/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shape/src/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Shape/src/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="e82c6b85-d4b9-4a3e-bf93-b309f8748261" name="Default Changelist" comment="add Rectangle class">
+      <change afterPath="$PROJECT_DIR$/Shape/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shape/src/ShapeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shape/src/ShapeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shape/src/SortByArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shape/src/SortByPerimeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shape/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shape/src/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shape/src/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shape/src/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shape/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Shape/src/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +56,30 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15902779" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\JavaTraining\JavaOopJule2021\Range\src" />
     </key>
+    <key name="CreateBuilderDialog.RecentsKey">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ShapeApp">
     <configuration name="RangeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RangeApp" />
       <module name="Range" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShapeApp" />
+      <module name="Shape" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShapeApp" />
         <item itemvalue="Application.RangeApp" />
       </list>
     </recent_temporary>
@@ -94,7 +112,7 @@
       <updated>1626676464720</updated>
       <workItem from="1626676466192" duration="4731000" />
       <workItem from="1626681214800" duration="5880000" />
-      <workItem from="1626830610111" duration="2674000" />
+      <workItem from="1626830610111" duration="26352000" />
     </task>
     <task id="LOCAL-00001" summary="add vcs.xml">
       <created>1626678247990</created>
@@ -166,7 +184,28 @@
       <option name="project" value="LOCAL" />
       <updated>1626685667976</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add Point class">
+      <created>1626833502673</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1626833502673</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add Shape interface">
+      <created>1626833552057</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1626833552057</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add Rectangle class">
+      <created>1626833585224</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1626833585224</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +233,9 @@
     <MESSAGE value="add vsc.xml" />
     <MESSAGE value="add getDifference method" />
     <MESSAGE value="check" />
-    <option name="LAST_COMMIT_MESSAGE" value="check" />
+    <MESSAGE value="add Point class" />
+    <MESSAGE value="add Shape interface" />
+    <MESSAGE value="add Rectangle class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Rectangle class" />
   </component>
 </project>
